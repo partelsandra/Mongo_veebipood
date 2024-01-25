@@ -4,7 +4,7 @@ import articleController from "./controllers/articleController";
 import commentController from "./controllers/commentController";
 import authorController from "./controllers/authorController";
 
-mongoose.connect("mongodb+srv://root:<qwerty12345>@test.nyvxqnm.mongodb.net/");
+mongoose.connect("mongodb+srv://root:qwerty12345@test.nyvxqnm.mongodb.net/test");
 const database = mongoose.connection;
 
 database.on('error', (error) => {
